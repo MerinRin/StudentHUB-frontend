@@ -25,7 +25,7 @@ function Dashboard() {
 
   return (
     <>
-      <div className="container-fluid d-flex flex-wrap"  style={{ gap: "90px", paddingInline: "120px", paddingBlock:"50px"}}>
+      <div className="container-fluid d-flex flex-wrap p-5 justify-content-md-start ms-md-5 justify-content-center"  style={{ gap: "90px"}}>
         {
           studentData?.length > 0 ? (
             studentData.map((student,i) => (

@@ -48,8 +48,6 @@ function StudentCard({ studentData, setIsStudentDeleted }) {
         </Card.Body>
       </Card>
 
-      
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Are you sure you want to delete this student ?</Modal.Title>
